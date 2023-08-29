@@ -1,4 +1,4 @@
-n = 2
+n = 17
 delta = 2
 raiz = 0
 error = 0.00001
