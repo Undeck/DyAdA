@@ -1,7 +1,7 @@
 import random
 import time
 
-n = 1900 * 10                #Numero = 1900
+n = 2350 * 10        #Numero = 1900
 lista = []
 while len(lista)<n:
     ale = random.randint (1,n)
