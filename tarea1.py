@@ -1,7 +1,7 @@
 import random
 import time
 
-n = 2350 * 10
+n = 2350 * 10              #Numero 2350
 lista = []
 lista1 = []
 lista2 = []
