@@ -16,7 +16,7 @@ print(cifraCesar('hola mundo', 50))'''
 #Cifrado cesar 
 def cifraCesar (cad, key):
     cifrado = ""
-    alfabeto = 'abcdefghijklmnñopqrstuvwxyz'
+    alfabeto = 'abcdefghijklmnopqrstuvwxyz'
     cad = cad.lower() 
     for c in cad:
         if c in alfabeto:
@@ -30,7 +30,7 @@ def cifraCesar (cad, key):
 #Decifrado cesar 
 def decifraCesar (cad, key):
     decifrado = ""
-    alfabeto = 'abcdefghijklmnñopqrstuvwxyz'
+    alfabeto = 'abcdefghijklmnnopqrstuvwxyz'
     cad = cad.lower() 
     for c in cad:
         if c in alfabeto:
@@ -39,7 +39,7 @@ def decifraCesar (cad, key):
         else:
            decifrado += c
     return decifrado
-a = 'tnwfhl vasl s whvhl'
+a = 'a zsnw dwsjfwv lzsl hwghdw oadd xgjywl ozsl qgm ksav, hwghdw oadd xgjywl ozsl qgm vav, tml hwghdw oadd fwnwj xgjywl zgo qgm esvw lzwe xwwd. - esqs sfywdgm.  a slljatmlw eq kmuuwkk lg lzak: a fwnwj ysnw gj lggc sfq wpumkw. xdgjwfuw fayzlafysdw.  lzw twkl laew lg hdsfl s ljww osk 20 qwsjk syg. lzw kwugfv twkl laew ak fgo. uzafwkw hjgnwjt. a se fgl s hjgvmul gx eq uajumeklsfuwk. a se s hjgvmul gx eq vwuakagfk. klwhzwf ugnwq. uzsfyw qgmj lzgmyzlk sfv qgm uzsfyw qgmj ogjdv. fgjesf nafuwfl hwsdw'
 b = cifraCesar(a,8)
 print (b)
 print (decifraCesar(b,8))

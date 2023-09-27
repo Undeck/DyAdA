@@ -1,0 +1,4 @@
+casa: lugar donde vives
+carro: run run
+perro: animal cuadrupedo
+avion: cosa que vuela
